@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
 
 :root {
-  --primary-color: #353535;
-  --secondary-color: #454545;
+  --primary-color: #454545;
+  --secondary-color: #858585;
+  --backup-color: rgb(185, 185, 185);
   --accent-color: rgb(172, 24, 44);
 }
 
@@ -18,9 +19,6 @@ body {
   max-width: 100%;
   min-height: 100vh;
   background: rgba(129, 129, 129, 0.25);
-
-
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,11 +49,14 @@ h1 {
 h2 {
   font-size: 0.8rem;
   font-weight: 500;
+  margin-bottom: 0.5rem;
 }
 
 ul li {
+  display: ;
   list-style: none;
 }
+
 
 
 /* --- CV */
@@ -67,6 +68,14 @@ ul li {
   padding: 1rem 2rem;
   position: relative;
 }
+
+@media (max-width: 1000px) {
+  #cv {
+    width: 100%;
+    margin: 1rem;
+  }
+}
+
 
 
 /* --- Header */
@@ -99,7 +108,7 @@ main {
 
 main section {
   display: flex;
-  flex-direction: column;
+  flex-flow: wrap column;
   gap: 1rem;
 }
 
@@ -107,6 +116,13 @@ main section {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+}
+
+main section span {
+  color: var(--backup-color);
+  font-size: 0.6rem;
+  font-weight: 100;
+  margin-bottom: -0.8rem;
 }
 
 #skills {
@@ -140,7 +156,7 @@ footer img {
   height: 20rem;
   border-radius: 50%;
   background: rgb(207, 20, 20);
-  animation: animateBkg 5s infinite;
+  animation: animateBkg 10s infinite;
 }
 
 @keyframes animateBkg {
@@ -159,5 +175,11 @@ footer img {
 
   to {
     transform: translateX(500px) scale(0.8);
+  }
+}
+
+@media (max-width: 1000px) {
+  .sphere1 {
+    display: none;
   }
 }

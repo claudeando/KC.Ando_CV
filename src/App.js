@@ -34,6 +34,7 @@ function Main() {
     <main>
       <div className="mainCol">
         <section id="employement">
+          <span>WORK HISTORY</span>
           <div>
             <div>
               <h2>Nocturna.io | Frontend Developer / UI Designer</h2>
@@ -77,6 +78,7 @@ function Main() {
         </section>
 
         <section id="project">
+          <span>PROJECT</span>
           <div>
             <div>
               <h2>Frontend Developer / UI Designer</h2>
@@ -121,6 +123,7 @@ function Main() {
 
       <div className="mainCol">
         <section id="skills">
+          <span>SKILLS</span>
           <div>
             <h2>Technical Skills</h2>
             <p>JavaScript / React / HTML / CSS / SASS / Node.js / REST / NPM / p5.js / three.js / Solidity / Web3.0 Dapps / AWS / Git / Wordpress / Elementor
@@ -139,12 +142,14 @@ function Main() {
         </section>
 
         <section id="education">
-          <h2>Education</h2>
+          <span>EDUCCATION</span>
+          <h2>City, University of London</h2>
+          <h2>The University of London</h2>
 
         </section>
 
         <section id="achievement">
-          <h2>Other Achievements</h2>
+          <span>OTHER ACHIEVEMENTS</span>
           <ul>
             <li><p>The Independent Photo Milan - 2022</p></li>
             <li><p>PhotoVogue Italia Award - Sep 2021</p></li>
