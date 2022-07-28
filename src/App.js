@@ -143,9 +143,12 @@ function Main() {
 
         <section id="education">
           <span>EDUCCATION</span>
-          <h2>City, University of London</h2>
-          <h2>The University of London</h2>
-
+          <h2>City, University of London<br></br>
+            <p>MSc Human-Computer Interaction Design</p>
+          </h2>
+          <h2>The University of London<br></br>
+            <p>BA International Relations / Chinese</p>
+          </h2>
         </section>
 
         <section id="achievement">
