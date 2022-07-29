@@ -1,5 +1,10 @@
 import './App.css';
 import logo from './assets/logo.png';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faGithub,
+  faLinkedin
+} from "@fortawesome/free-brands-svg-icons";
 
 function Background() {
   return (
@@ -35,10 +40,11 @@ function Main() {
       <div className="mainCol">
         <section id="employement">
           <span>WORK HISTORY</span>
-          <div>
+          <div className="content">
             <div>
-              <h2>Nocturna.io | Frontend Developer / UI Designer</h2>
-              <p> Jan 2022 - Present | London, UK</p>
+              <h2>Nocturna.io | Frontend Developer / UI Designer<br></br>
+                <p> Jan 2022 - Present | London, UK</p>
+              </h2>
             </div>
             <div>
               <ul>
@@ -49,10 +55,12 @@ function Main() {
           </div>
 
 
-          <div>
+          <div className="content">
             <div>
-              <h2>Self-Employed | Creative Director</h2>
-              <p>May 2020 - Present | Online, UK</p>
+              <h2>Self-Employed | Creative Director<br></br>
+                <p>May 2020 - Present | Online, UK</p>
+              </h2>
+
             </div>
             <div>
               <ul>
@@ -63,10 +71,12 @@ function Main() {
           </div>
 
 
-          <div>
+          <div className="content">
             <div>
-              <h2>CGTN | Cinematographer / Director of Photography</h2>
-              <p>May 2020 - Present | Online, UK</p>
+              <h2>CGTN | Cinematographer / Director of Photography<br></br>
+                <p>May 2020 - Present | Online, UK</p>
+              </h2>
+
             </div>
             <div>
               <ul>
@@ -127,7 +137,7 @@ function Main() {
           <div>
             <h2>Technical Skills</h2>
             <p>JavaScript / React / HTML / CSS / SASS / Node.js / REST / NPM / p5.js / three.js / Solidity / Web3.0 Dapps / AWS / Git / Wordpress / Elementor
-              <br></br>
+              <br></br><br></br>
               Figma / UX/UI / Photoshop / Illustrator / Lightroom / Premiere Pro / After Effects / Blender</p>
           </div>
 
@@ -162,11 +172,11 @@ function Main() {
         </section>
 
         <section id="contact">
-          <u>
-            <li><a href="https://claudeando.com" target="_blank">Portfolio</a></li>
-            <li><a href="https://github.com/claudeando" target="_blank">Github</a></li>
-            <li><a href="https://linkedin.com/in/claudeando" target="_blank">Linkedin</a></li>
-          </u>
+          <ul>
+            <li><a href="https://claudeando.com" target="_blank" rel="noreferrer">Portfolio</a></li>
+            <li><FontAwesomeIcon className="fa" icon={faGithub} size="1x" /><a href="https://github.com/claudeando" target="_blank" rel="noreferrer">Github</a></li>
+            <li><FontAwesomeIcon className="fa" icon={faLinkedin} size="1x" /><a href="https://linkedin.com/in/claudeando" target="_blank" rel="noreferrer">Linkedin</a></li>
+          </ul>
         </section>
       </div>
     </main>

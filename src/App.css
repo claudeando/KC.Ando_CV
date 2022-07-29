@@ -3,7 +3,7 @@
 :root {
   --primary-color: #454545;
   --secondary-color: #858585;
-  --backup-color: rgb(185, 185, 185);
+  --backup-color: rgb(165, 165, 165);
   --accent-color: rgb(172, 24, 44);
 }
 
@@ -90,6 +90,10 @@ header {
   margin-bottom: 2rem;
 }
 
+header p {
+  font-size: 1rem;
+}
+
 header .contact li {
   list-style: none;
 }
@@ -125,6 +129,23 @@ main section span {
   font-size: 0.6rem;
   font-weight: 100;
   margin-bottom: -0.8rem;
+}
+
+main section span:hover {
+  color: var(--accent-color);
+  font-weight: 400;
+}
+
+main .content {
+  transition: 0.5s linear;
+}
+
+main .content:hover {
+  background: linear-gradient(75deg, #FDFDFE 0%, #D8D7DD 100%);
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+  padding: 1rem;
+
+  transition: 0.5s linear;
 }
 
 #skills {
@@ -184,4 +205,8 @@ footer img {
   .sphere1 {
     display: none;
   }
+}
+
+.fa {
+  margin-right: 0.2rem;
 }
