@@ -143,7 +143,7 @@ main .content {
 main .content:hover {
   background: linear-gradient(75deg, #FDFDFE 0%, #D8D7DD 100%);
   box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
-  padding: 1rem;
+  transform: translateX(-100px);
 
   transition: 0.5s linear;
 }
@@ -154,6 +154,11 @@ main .content:hover {
   gap: 1rem;
 }
 
+#contact ul {
+  display: flex;
+  flex-direction: column;
+  gap: .25rem;
+}
 
 
 /* --- Footer */

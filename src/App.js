@@ -1,4 +1,6 @@
 import './App.css';
+
+
 import logo from './assets/logo.png';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -152,7 +154,7 @@ function Main() {
         </section>
 
         <section id="education">
-          <span>EDUCCATION</span>
+          <span>EDUCATION</span>
           <h2>City, University of London<br></br>
             <p>MSc Human-Computer Interaction Design</p>
           </h2>
