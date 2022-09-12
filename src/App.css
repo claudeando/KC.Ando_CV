@@ -59,22 +59,25 @@ ul li {
 }
 
 
-
 /* --- CV */
 
 #cv {
-  width: 35vw;
-  min-height: 80vh;
+  width: 37.5rem;
+  min-height: 50rem;
   background: linear-gradient(75deg, #FDFDFE 0%, #D8D7DD 100%);
   box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
   padding: 1rem 2rem;
   position: relative;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 750px) {
+
   #cv {
-    width: 100%;
-    margin: 1rem;
+    display: none;
+  }
+
+  body::after {
+    content: "You know my CV is physical paper ... 😭";
   }
 }
 
