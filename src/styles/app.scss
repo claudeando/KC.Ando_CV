@@ -60,7 +60,7 @@ ul li {
 /* --- CV */
 
 #cv {
-    width: 37.5rem;
+    width: 38.5rem;
     min-height: 50rem;
     background: linear-gradient(75deg, #FDFDFE 0%, #D8D7DD 100%);
     box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
@@ -133,12 +133,6 @@ main {
 
         }
 
-        .mainCol {
-            display: flex;
-            flex-direction: column;
-            gap: 1.5rem;
-        }
-
         .content {
             transition: 0.5s linear;
 
@@ -152,6 +146,11 @@ main {
         }
     }
 
+    .mainCol {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
 
     #skills {
         display: flex;

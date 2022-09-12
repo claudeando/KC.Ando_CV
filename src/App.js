@@ -24,7 +24,7 @@ function Header() {
     <header>
       <div>
         <h1>CLAUDE ANDO</h1>
-        <p>Frontend Developer / UI Engineer</p>
+        <p>Frontend Developer / 3D Artist</p>
       </div>
       <div className="contact">
         <ul>
