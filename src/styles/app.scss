@@ -78,8 +78,13 @@ ul li {
         display: none;
     }
 
-    body::after {
-        content: "You know my CV is physical paper ... 😭";
+    body {
+        background: black;
+
+        &::after {
+            content: "You know my CV is physical paper ... 😭";
+            color: white
+        }
     }
 }
 

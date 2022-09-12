@@ -65,8 +65,12 @@ ul li {
   #cv {
     display: none;
   }
+  body {
+    background: black;
+  }
   body::after {
     content: "You know my CV is physical paper ... 😭";
+    color: white;
   }
 }
 /* --- Header */
