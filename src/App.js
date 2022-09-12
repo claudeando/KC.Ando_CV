@@ -59,7 +59,7 @@ function Main() {
 
           <div className="content">
             <div>
-              <h2>Self-Employed | Creative Director<br></br>
+              <h2>Ando.studio (Self-Employed) | Creative Director<br></br>
                 <p>May 2020 - Present | Online, UK</p>
               </h2>
 
@@ -138,9 +138,9 @@ function Main() {
           <span>SKILLS</span>
           <div>
             <h2>Technical Skills</h2>
-            <p>JavaScript / React / HTML / CSS / SASS / Node.js / REST / NPM / p5.js / three.js / Solidity / Web3.0 Dapps / AWS / Git / Wordpress / Elementor
+            <p>JavaScript / React.js / Node.js / SCSS / CSS / HTML / NPM / Git / Blneder / WebGL /three.js / p5.js / Solidity / Web3.0 Dapps / AWS / CICD / Wordpress
               <br></br><br></br>
-              Figma / UX/UI / Photoshop / Illustrator / Lightroom / Premiere Pro / After Effects / Blender</p>
+              Blender / Unity / Photoshop / Lightroom / Davinci Resolve /Figma / UX/UI</p>
           </div>
 
           <div>
