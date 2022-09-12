@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400&display=swap');
 
+/* --- Universal Settings */
+
 $primary-color: #454545;
 $secondary-color: #858585;
 $backup-color: rgb(165, 165, 165);
@@ -9,7 +11,6 @@ $accent-color: rgb(172, 24, 44);
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-
     font-family: 'Kumbh Sans', sans-serif;
 }
 
@@ -57,11 +58,14 @@ ul li {
 }
 
 
+
+
+
 /* --- CV */
 
 #cv {
     width: 38.5rem;
-    min-height: 50rem;
+    min-height: 52.5rem;
     background: linear-gradient(75deg, #FDFDFE 0%, #D8D7DD 100%);
     box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
     padding: 1rem 2rem;
@@ -81,6 +85,8 @@ ul li {
 
 
 
+
+
 /* --- Header */
 
 header {
@@ -95,6 +101,8 @@ header {
     }
 
     .contact {
+        text-align: right;
+
         li {
             list-style: none;
         }
@@ -104,6 +112,8 @@ header {
         }
     }
 }
+
+
 
 
 
@@ -168,6 +178,7 @@ main {
 
 
 
+
 /* --- Footer */
 
 footer {
@@ -181,6 +192,8 @@ footer {
         margin: 1rem;
     }
 }
+
+
 
 
 /* --- Background */
